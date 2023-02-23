@@ -3,3 +3,39 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #222;
+}
+
+section:nth-child(even) {
+  background-color: #333;
+}
+
+/* nav */
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 16px;
+  height: 100px;
+  background-color: #222;
+}
+
+.nav__logo {
+  width: 160px;
+}
+
+.nav__section {
+  color: #f8f8f8;
+  padding: 16px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* info */
+
+.info {
+  height: calc(100vh - 100px);
+}
